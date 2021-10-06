@@ -1,0 +1,236 @@
+{
+    "name": "AutoML_Framework",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": true,
+        "data_passing_memory_size": "10GB"
+    },
+    "steps": {
+        "28971f9a-89d0-4f06-b616-b7fb6a5bfc6b": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "pred-automl-flaml.ipynb",
+            "incoming_connections": [
+                "a5f0b136-1498-4028-bdc8-efe1ea0b4e72"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1100.5,
+                    632
+                ]
+            },
+            "parameters": {},
+            "title": "pred_automl_flaml",
+            "uuid": "28971f9a-89d0-4f06-b616-b7fb6a5bfc6b"
+        },
+        "7dcc7dfc-ec55-4edc-8ae0-a879c304d13a": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "prediction-pycaret.ipynb",
+            "incoming_connections": [
+                "80e9400e-60b7-405a-b73e-9f3727b74225"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    1080.5,
+                    185
+                ]
+            },
+            "parameters": {},
+            "title": "prediction_pycaret",
+            "uuid": "7dcc7dfc-ec55-4edc-8ae0-a879c304d13a"
+        },
+        "80e9400e-60b7-405a-b73e-9f3727b74225": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "auto_ml_pycaret.ipynb",
+            "incoming_connections": [
+                "c347f4df-b12f-4b03-ad18-66fa72e3070c"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    811,
+                    185
+                ]
+            },
+            "parameters": {
+                "fix_imbalance": 1,
+                "profile": 1,
+                "silent": 1
+            },
+            "title": "auto_ml_pycaret",
+            "uuid": "80e9400e-60b7-405a-b73e-9f3727b74225"
+        },
+        "83db9e81-265d-400d-b69f-8703a2b55438": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "get-unclean-data.py",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    36,
+                    230
+                ]
+            },
+            "parameters": {},
+            "title": "get_unclean_data",
+            "uuid": "83db9e81-265d-400d-b69f-8703a2b55438"
+        },
+        "a5f0b136-1498-4028-bdc8-efe1ea0b4e72": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "automl-flaml.ipynb",
+            "incoming_connections": [
+                "c347f4df-b12f-4b03-ad18-66fa72e3070c"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    830.5,
+                    632
+                ]
+            },
+            "parameters": {},
+            "title": "automl_flaml",
+            "uuid": "a5f0b136-1498-4028-bdc8-efe1ea0b4e72"
+        },
+        "c29036ef-5496-4f8c-bf74-57436711fcdd": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "auto-eda.ipynb",
+            "incoming_connections": [
+                "c347f4df-b12f-4b03-ad18-66fa72e3070c"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    695,
+                    871
+                ]
+            },
+            "parameters": {},
+            "title": "auto_eda",
+            "uuid": "c29036ef-5496-4f8c-bf74-57436711fcdd"
+        },
+        "c347f4df-b12f-4b03-ad18-66fa72e3070c": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "auto-data-cleaner.ipynb",
+            "incoming_connections": [
+                "83db9e81-265d-400d-b69f-8703a2b55438"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    368,
+                    492
+                ]
+            },
+            "parameters": {
+                "use_datacleaner": 1,
+                "use_klib": 0
+            },
+            "title": "auto_data_cleaner",
+            "uuid": "c347f4df-b12f-4b03-ad18-66fa72e3070c"
+        },
+        "e78ee07f-6090-4938-ae8e-e7f92a37b66f": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "auto-ml-complex.ipynb",
+            "incoming_connections": [
+                "83db9e81-265d-400d-b69f-8703a2b55438"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    365,
+                    15
+                ]
+            },
+            "parameters": {
+                "Add_Poly": 1,
+                "Binning_Flag": 1,
+                "Boosting_Flag": 1,
+                "Imbalanced_Flag": 1,
+                "KMeans_Featurizer": 1,
+                "Stacking_Flag": 1,
+                "feature_reduction": 1
+            },
+            "title": "auto_ml_complex",
+            "uuid": "e78ee07f-6090-4938-ae8e-e7f92a37b66f"
+        },
+        "e9efc09d-d601-4fe8-b4b1-5e0c4a4d76d0": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "auto-ml_simple.ipynb",
+            "incoming_connections": [
+                "83db9e81-265d-400d-b69f-8703a2b55438"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    368,
+                    135
+                ]
+            },
+            "parameters": {},
+            "title": "auto_ml_simple",
+            "uuid": "e9efc09d-d601-4fe8-b4b1-5e0c4a4d76d0"
+        },
+        "ea18e6fb-ea2c-464a-9a13-70371e4fd069": {
+            "environment": "c56ab762-539c-4cce-9b1e-c4b00300ec6f",
+            "file_path": "automl-tpot.ipynb",
+            "incoming_connections": [
+                "c347f4df-b12f-4b03-ad18-66fa72e3070c"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    822.5,
+                    380
+                ]
+            },
+            "parameters": {},
+            "title": "automl_tpot",
+            "uuid": "ea18e6fb-ea2c-464a-9a13-70371e4fd069"
+        }
+    },
+    "uuid": "241c67a2-c33f-46b9-87fc-e365e8ba03b7",
+    "version": "1.0.0"
+}
