@@ -27,3 +27,8 @@ Ready Prototype on Orchest
 7. klib
 
 *** will be updated as I explore more
+# Next Steps
+1. Add pyspark support for large df
+2. Add new auto eda - edatk
+3. Add model explainer - shap
+4. Add model monitor - evidently
